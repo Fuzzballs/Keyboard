@@ -121,8 +121,7 @@ def threeClickM():
     threeClickM = Label(root, text="M")
     threeClickM.grid(row=5, column=4)
 
-
-    #10 number buttons
+#10 number buttons
 numButton1 = Button(root, text="1", padx=5, command=myClick1)
 numButton2 = Button(root, text="2", padx=5, command=myClick2)
 numButton3 = Button(root, text="3", padx=5, command=myClick3)
